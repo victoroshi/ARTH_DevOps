@@ -5,7 +5,7 @@ This folder contains outputs and explanations for basic Linux setup including us
 
 ## Commands Used for Task 1
 ## Create a new user and grant sudo access
-`sudo adduser devopsuser
+`sudo adduser devopsuser`
 ### What this command does:
 - sudo: runs command as admin (superuser)
 - adduser: creates a new user
