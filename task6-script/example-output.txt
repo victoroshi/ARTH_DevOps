@@ -1,0 +1,6 @@
+
+# Example Output
+Disk Usage: [output]
+Memory Usage: [output]
+Nginx Status: [output]
+Application Port: [output]

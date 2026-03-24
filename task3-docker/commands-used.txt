@@ -1,0 +1,7 @@
+
+# Commands Used for Task 3
+mkdir myapp
+cd myapp
+echo "<h1>Hello from Docker App</h1>" > index.html
+docker build -t myapp .
+docker run -d -p 8080:80 myapp

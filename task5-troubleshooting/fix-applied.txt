@@ -1,0 +1,3 @@
+
+docker stop <container-id>
+sudo systemctl start nginx

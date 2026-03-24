@@ -1,0 +1,10 @@
+
+# Commands Used for Task 1
+sudo adduser devuser
+sudo usermod -aG sudo devuser
+sudo apt update
+sudo apt install -y git curl htop nginx docker.io
+lsb_release -a
+ip a
+free -h
+df -h
