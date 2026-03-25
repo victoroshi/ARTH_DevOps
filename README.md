@@ -154,7 +154,7 @@ sudo systemctl enable nginx
 ```bash
 sudo systemctl status nginx
 ```
-![Nginx Status](./screenshots/check-service-status.png)
+![Nginx Status](task2-service-management/screenshots/check-service-status.png)
 
 ### What this does:
 
@@ -168,7 +168,7 @@ sudo systemctl status nginx
 ```bash
 sudo lsof -i :80
 ```
-![Port Check](./screenshots/check-which-process-is-using-port-80.png)
+![Port Check](task2-service-management/screenshots/check-which-process-is-using-port-80.png)
 
 ### What this does:
 
@@ -197,7 +197,7 @@ To confirm nginx is working, open a browser and visit:
 ```
 http://localhost
 ```
-![Confirm Nginx is working](./screenshots/confirm-nginx-is-working.png)
+![Confirm Nginx is working](task2-service-management/screenshots/confirm-nginx-is-working.png)
 
 You should see the default nginx welcome page.
 
@@ -266,7 +266,7 @@ COPY index.html /usr/share/nginx/html/index.html
 ```bash
 docker build -t myapp .
 ```
-![Docker Build](./screenshots/docker-build.png)
+![Docker Build](task3-docker/screenshots/docker-build.png)
 
 ### What this does:
 
@@ -295,7 +295,7 @@ docker run -d -p 8080:80 myapp
 ```bash
 docker ps
 ```
-![Running Container](./screenshots/run-and-verify-running-cointainer.png)
+![Running Container](task3-docker/screenshots/run-and-verify-running-cointainer.png)
 
 ### What this does:
 
@@ -310,7 +310,7 @@ Open your browser and visit:
 ```
 http://localhost:8080
 ```
-![Application Output](./screenshots/verify-application-in-browser.png)
+![Application Output](task3-docker/screenshots/verify-application-in-browser.png)
 
 You should see:
 
@@ -349,7 +349,7 @@ location / {
     proxy_pass http://localhost:8080;
 }
 ```
-![Nginx Config and Test](./screenshots/configure-reverse-proxy-and-test.png)
+![Nginx Config and Test](task4-nginx-reverse-proxy/screenshots/configure-reverse-proxy-and-test.png)
 
 ### What this does:
 
@@ -390,7 +390,7 @@ Open the browser and visit:
 ```
 http://localhost
 ```
-![App via Nginx](./screenshots/verify-app-via-nginx.png)
+![App via Nginx](task4-nginx-reverse-proxy/screenshots/verify-app-via-nginx.png)
 
 ### Expected Result:
 
@@ -412,7 +412,7 @@ The application was not accessible via the browser using:
 http://localhost:8080
 
 ````
-![Error](./screenshots/application-not-opening.png)
+![Error](task5-troubleshooting/screenshots/application-not-opening.png)
 
 ---
 
@@ -423,7 +423,7 @@ http://localhost:8080
 ```bash
 docker ps
 ````
-![Check Running Container](./screenshots/app-disgnosis.png)
+![Check Running Container](task5-troubleshooting/screenshots/app-disgnosis.png)
 
 ### What this does:
 
@@ -481,7 +481,7 @@ docker run -d -p 8080:80 myapp
 ```bash
 curl http://localhost:8080
 ```
-![Fix Applied](./screenshots/apply-fix-and-verify.png)
+![Fix Applied](task5-troubleshooting/screenshots/apply-fix-and-verify.png)
 
 ### What this does:
 
@@ -497,7 +497,7 @@ Open:
 ```
 http://localhost:8080
 ```
-![Successful Output](./screenshots/browser-test.png)
+![Successful Output](task5-troubleshooting/screenshots/browser-test.png)
 
 Expected output:
 
