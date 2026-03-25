@@ -7,12 +7,12 @@ This section demonstrates creating a simple shell script to check system health,
 ## Create Script File
 
 ```bash
-nano check.sh
+nano healthcheck.sh
 ````
 
 ### What this does:
 
-* Creates and opens a new file named `check.sh` for editing
+* Creates and opens a new file named `healthcheck.sh` for editing
 
 ---
 
@@ -50,7 +50,7 @@ ss -tulnp | grep 8080
 ## Make Script Executable
 
 ```bash
-chmod +x check.sh
+chmod +x healthcheck.sh
 ```
 
 ### What this does:
@@ -62,7 +62,7 @@ chmod +x check.sh
 ## Run Script
 
 ```bash
-./check.sh
+./healthcheck.sh
 ```
 
 ### What this does:
@@ -70,13 +70,3 @@ chmod +x check.sh
 * Executes the script and displays system information
 
 ---
-
-## Screenshots
-
-> Place your screenshots inside the `screenshots` folder and reference them below.
-
-![Script Creation](./screenshots/script-create.png)
-
-![Script Output](./screenshots/script-output.png)
-
-````
