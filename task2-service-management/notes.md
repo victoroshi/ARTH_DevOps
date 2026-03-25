@@ -1,11 +1,5 @@
 
 # Task 2 Notes
-This task demonstrates how to start, enable, and inspect system services including nginx.
-
----
-
-````markdown
-# Task 2 Notes
 
 This section covers managing services in Linux, specifically starting, enabling, and troubleshooting nginx, as well as checking port usage.
 
