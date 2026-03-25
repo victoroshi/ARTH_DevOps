@@ -26,6 +26,7 @@ location / {
     proxy_pass http://localhost:8080;
 }
 ```
+![Nginx Config and Test](./screenshots/configure-reverse-proxy-and-test.png)
 
 ### What this does:
 
@@ -66,6 +67,7 @@ Open your browser and visit:
 ```
 http://localhost
 ```
+![App via Nginx](./screenshots/verify-app-via-nginx.)
 
 ### Expected Result:
 
@@ -77,10 +79,8 @@ http://localhost
 
 > Place your screenshots inside the `screenshots` folder and reference them below.
 
-![Nginx Config](./screenshots/nginx-config.png)
 
 ![Nginx Test](./screenshots/nginx-test.png)
 
-![App via Nginx](./screenshots/app-via-nginx.png)
 
 ````
