@@ -11,9 +11,10 @@ The application was not accessible via the browser using:
 
 ```
 
-[http://localhost:8080](http://localhost:8080)
+http://localhost:8080
 
 ````
+![Error](./screenshots/application-not-opening.png)
 
 ---
 
@@ -24,6 +25,7 @@ The application was not accessible via the browser using:
 ```bash
 docker ps
 ````
+![Check Running Container](./screenshots/app-disgnosis.png)
 
 ### What this does:
 
@@ -81,6 +83,7 @@ docker run -d -p 8080:80 myapp
 ```bash
 curl http://localhost:8080
 ```
+![Fix Applied](./screenshots/apply-fix-and-verify.png)
 
 ### What this does:
 
@@ -96,22 +99,11 @@ Open:
 ```
 http://localhost:8080
 ```
+![Successful Output](./screenshots/browser-test.png)
 
 Expected output:
 
 ```
-Hello DevOps World
-```
-
+<h1>Hello from Docker Application</h1>
+<p>This is the web app served inside a Docker container.</p>```
 ---
-
-## Screenshots
-
-> Place your screenshots inside the `screenshots` folder and reference them below.
-
-![Error](./screenshots/error.png)
-
-![Fix Applied](./screenshots/fix.png)
-
-![Successful Output](./screenshots/success.png)
-
