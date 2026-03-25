@@ -62,7 +62,7 @@ sudo systemctl restart nginx
 
 ## Verify Application via Nginx
 
-Open your browser and visit:
+Open the browser and visit:
 
 ```
 http://localhost
