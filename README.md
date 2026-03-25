@@ -501,8 +501,7 @@ http://localhost:8080
 
 Expected output:
 
-```
-<h1>Hello from Docker Application</h1>
+```<h1>Hello from Docker Application</h1>
 <p>This is the web app served inside a Docker container.</p>```
 ---
 
