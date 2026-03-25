@@ -1,3 +1,86 @@
 
 # Task 4 Notes
-Configured nginx reverse proxy to forward port 80 traffic to Docker app on port 8080.
+
+This section demonstrates how to configure nginx as a reverse proxy to forward incoming traffic from port 80 to an application running on port 8080.
+
+---
+
+## Edit Nginx Configuration File
+
+```bash
+sudo nano /etc/nginx/sites-available/default
+````
+
+### What this does:
+
+* Opens the default nginx configuration file for editing
+
+---
+
+## Configure Reverse Proxy
+
+Inside the `server` block, locate the `location /` section and replace it with:
+
+```nginx
+location / {
+    proxy_pass http://localhost:8080;
+}
+```
+
+### What this does:
+
+* Forwards all incoming requests on port 80 to the application running on port 8080
+* Enables nginx to act as a reverse proxy
+
+---
+
+## Test Nginx Configuration
+
+```bash
+sudo nginx -t
+```
+
+### What this does:
+
+* Checks for syntax errors in the nginx configuration file
+* Ensures the configuration is valid before restarting
+
+---
+
+## Restart Nginx
+
+```bash
+sudo systemctl restart nginx
+```
+
+### What this does:
+
+* Applies the new configuration changes
+
+---
+
+## Verify Application via Nginx
+
+Open your browser and visit:
+
+```
+http://localhost
+```
+
+### Expected Result:
+
+* The application running on port 8080 should now be accessible via port 80
+
+---
+
+## Screenshots
+
+> Place your screenshots inside the `screenshots` folder and reference them below.
+
+![Nginx Config](./screenshots/nginx-config.png)
+
+![Nginx Test](./screenshots/nginx-test.png)
+
+![App via Nginx](./screenshots/app-via-nginx.png)
+
+````
