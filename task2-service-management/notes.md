@@ -34,6 +34,7 @@ sudo systemctl enable nginx
 ```bash
 sudo systemctl status nginx
 ```
+![Nginx Status](./screenshots/check-service-status.png)
 
 ### What this does:
 
@@ -47,6 +48,7 @@ sudo systemctl status nginx
 ```bash
 sudo lsof -i :80
 ```
+![Port Check](./screenshots/check-which-process-is-using-port-80.png)
 
 ### What this does:
 
@@ -79,13 +81,3 @@ http://localhost
 You should see the default nginx welcome page.
 
 ---
-
-## Screenshots
-
-> Place your screenshots inside the `screenshots` folder and reference them below.
-
-![Nginx Status](./screenshots/nginx-status.png)
-
-![Port Check](./screenshots/port-check.png)
-
-````
