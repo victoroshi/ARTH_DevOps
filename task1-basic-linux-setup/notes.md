@@ -114,4 +114,4 @@ free -h
 ```bash
 df -h
 ```
-![Disk-Usage](./screenshots/Disk_Usage.png)
+![Disk-Usage](./screenshots/Disk-Usage.png)
