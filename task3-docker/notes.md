@@ -26,7 +26,8 @@ nano index.html
 ### Add the following content:
 
 ```html
-<h1>Hello DevOps World</h1>
+<h1>Hello from Docker Application</h1>
+<p>This is the web app served inside a Docker container.</p>
 ```
 
 ### What this does:
@@ -60,6 +61,7 @@ COPY index.html /usr/share/nginx/html/index.html
 ```bash
 docker build -t myapp .
 ```
+![Docker Build](./screenshots/docker-build.png)
 
 ### What this does:
 
@@ -88,6 +90,7 @@ docker run -d -p 8080:80 myapp
 ```bash
 docker ps
 ```
+![Running Container](./screenshots/run-and-verify-running-cointainer.png)
 
 ### What this does:
 
@@ -102,23 +105,13 @@ Open your browser and visit:
 ```
 http://localhost:8080
 ```
+![Application Output](./screenshots/verify-application-in-browser.png)
 
 You should see:
 
 ```
-Hello DevOps World
+Hello from Docker Application
+This is the web app served inside a Docker container.
 ```
 
 ---
-
-## Screenshots
-
-> Place your screenshots inside the `screenshots` folder and reference them below.
-
-![Docker Build](./screenshots/docker-build.png)
-
-![Running Container](./screenshots/docker-ps.png)
-
-![Application Output](./screenshots/app-output.png)
-
-````
