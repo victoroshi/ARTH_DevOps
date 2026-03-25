@@ -60,7 +60,7 @@ sudo lsof -i :80
 ## Alternative Method to Check Port Usage
 
 ```bash
-sudo netstat -tulnp | grep 80
+sudo ss -tulnp | grep 80
 ```
 
 ### What this does:
@@ -77,6 +77,7 @@ To confirm nginx is working, open a browser and visit:
 ```
 http://localhost
 ```
+![Confirm Nginx is working](./screenshots/confirm-nginx-is-working.png)
 
 You should see the default nginx welcome page.
 
