@@ -25,7 +25,7 @@ sudo adduser devopsuser
 sudo usermod -aG sudo devopsuser
 ```
 
-![create-user-and-add-sudo-access](./screenshots/create-user-and-add-sudo-access.png)
+![create-user-and-add-sudo-access](task1-basic-linux-setup/screenshots/create-user-and-add-sudo-access.png)
 
 ### What it means:
 
@@ -89,7 +89,7 @@ sudo apt install -y git curl htop nginx docker.io
 ```bash
 lsb_release -a
 ```
-![OS-Version](./screenshots/OS-Version.png)
+![OS-Version](task1-basic-linux-setup/screenshots/OS-Version.png)
 
 ---
 
@@ -98,7 +98,7 @@ lsb_release -a
 ```bash
 ip a
 ```
-![IP-Address](./screenshots/IP-Address.png)
+![IP-Address](task1-basic-linux-setup/screenshots/IP-Address.png)
 
 ---
 
@@ -107,7 +107,7 @@ ip a
 ```bash
 free -h
 ```
-![Memory-Usage](./screenshots/Memory-Usage.png)
+![Memory-Usage](task1-basic-linux-setup/screenshots/Memory-Usage.png)
 
 ---
 
@@ -116,7 +116,7 @@ free -h
 ```bash
 df -h
 ```
-![Disk-Usage](./screenshots/Disk-Usage.png)
+![Disk-Usage](task1-basic-linux-setup/screenshots/Disk-Usage.png)
 
 
 # Task 2 Notes
