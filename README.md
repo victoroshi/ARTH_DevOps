@@ -10,7 +10,7 @@ This tasks contains outputs and explanations for basic Linux setup including use
 ```bash
 sudo adduser devopsuser
 ````
-![adding-new-user](../screenshots/adding-new-user.png)
+![adding-new-user](task1-basic-linux-setup/screenshots/adding-new-user.png)
 ### What this command does:
 
 * `sudo`: runs command as admin (superuser)
