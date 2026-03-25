@@ -8,7 +8,7 @@ This folder contains outputs and explanations for basic Linux setup including us
 ```bash
 sudo adduser devopsuser
 ````
-
+![adding-new-user](./screenshots/adding-new-user.png)
 ### What this command does:
 
 * `sudo`: runs command as admin (superuser)
@@ -22,6 +22,8 @@ sudo adduser devopsuser
 ```bash
 sudo usermod -aG sudo devopsuser
 ```
+
+![create-user-and-add-sudo-access](./screenshots/create-user-and-add-sudo-access.png)
 
 ### What it means:
 
@@ -109,5 +111,3 @@ free -h
 ```bash
 df -h
 ```
-
-````
