@@ -72,15 +72,3 @@ http://localhost
 ### Expected Result:
 
 * The application running on port 8080 should now be accessible via port 80
-
----
-
-## Screenshots
-
-> Place your screenshots inside the `screenshots` folder and reference them below.
-
-
-![Nginx Test](./screenshots/nginx-test.png)
-
-
-````
