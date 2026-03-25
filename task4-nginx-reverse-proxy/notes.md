@@ -67,7 +67,7 @@ Open your browser and visit:
 ```
 http://localhost
 ```
-![App via Nginx](./screenshots/verify-app-via-nginx.)
+![App via Nginx](./screenshots/verify-app-via-nginx.png)
 
 ### Expected Result:
 
